@@ -1,0 +1,237 @@
+/* Universal Styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+header {
+display: flex;
+align-items: center;
+position: fixed;
+height: 69px;
+width: 100%;
+margin-top: 0px;
+border-bottom: 1px solid seashell;
+background-color: black;
+z-index: 1;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  margin: 0 10px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  margin-left: 930px;
+  text-decoration: underline;
+}
+
+.nav {
+padding: 10px 10px;
+}
+
+/* Our Mission */
+
+.containermission {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  width: 1200px;
+  height: 700px;
+  padding: 70px 80px;
+}
+
+.imagemission {
+  display: flex;
+  position: absolute;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  flex-shrink: 2;
+}
+
+.bandeaunoir {
+  background-color: black;
+  width: 100%;
+  height: 110px;
+  margin-top: 300px;
+}
+
+#ourmission {
+  display: flex;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 500px;
+}
+
+.narrativemission {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+/* Tea of the month */
+
+.containertea {
+  display: flex;
+  text-align: center;
+  margin-top: 970px;
+  margin-left: 180px;
+  width: 1000px;
+  height: 900px;
+  justify-content: space-around;
+}
+
+.first3 {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+}
+
+.last2 {
+  display: flex;
+  position: absolute;
+  margin-top: 270px;
+}
+
+#tea {
+  display: flex;
+  position: absolute;
+  margin-top: 850px;
+  margin-left: 550px;
+}
+
+.teatext {
+ display: flex;
+ position: absolute;
+ margin-top: 910px;
+ margin-left: 505px;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  margin: 15px 15px;
+}
+
+.narrativetea1 {
+  margin-top: 0;
+  margin-left: 0px;
+}
+
+.narrativetea2 {
+  margin-top: 0;
+  margin-left: 0px;
+}
+
+/* Locations */
+
+.contentlocation {
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+width: 1200px;
+height: 570px;
+display: flex;
+position: absolute;
+margin-top: 1600px;
+margin-left: 80px;
+}
+
+#locations {
+  display: flex;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 525px;
+}
+
+.boxdowntown {
+  background-color: black;
+  height: 290px;
+  width: 300px;
+  display: flex;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 100px;
+  flex-direction: column;
+  opacity: 1;
+}
+
+.boxbayside {
+  background-color: black;
+  height: 290px;
+  width: 300px;
+  display: flex;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 450px;
+  flex-direction: column;
+  opacity: 1;
+
+}
+
+.boxoakdale {
+  background-color: black;
+  height: 290px;
+  width: 300px;
+  margin-top: -275px;
+  margin-left: 350px;
+  flex-direction: column;
+  opacity: 1;
+}
+
+.adress {
+  font-weight: normal;
+  margin: 20px 10px;
+}
+
+.adress3 {
+  margin: 40px auto;
+  font-weight: normal;
+}
+
+/* Footer */
+
+footer {
+  height: 200px;
+  width: 100%
+}
+
+.contact {
+  display: flex;
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 490px;
+  flex-direction: column;
+}
+
+.teacosy {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.mail {
+  margin-bottom: 15px;
+}
+
+
+.copyright {
+  margin-top: 850px;
+  margin-left: 20px;
+  display: flex;
+  position: absolute;
+}
